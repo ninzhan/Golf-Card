@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Golf Card</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id = "search">
+        <div id = "input">
+            <p>Search for a golf place by distance</p>
+            <form id = "searchform">
+            <input id = "distance" type = "number" value="20">
+            <button onclick = "search($('#distance').val()); return false">Search</button>
+            </form>
+
+        </div>
+        <div id = "output"></div>
+
+    </div>
+    <input id = "newplayername" type="text" value = "Enter name here">
+    <button onclick = "addPlayer($('#newplayername').val())">Add Player</button>
+    <div id = "players"></div>
+    <div id = "play">
+        <div id = "game"></div>
+    </div>
+</body>
+
+<script src = "main.js"></script>
+</html>

@@ -1,0 +1,46 @@
+.course{
+    display: block;
+}
+.col{
+    display: inline-block;
+    padding: 5px;
+}
+.name{
+    display: block;
+}
+input[type=number]{
+    width: 40px;
+}
+#players{
+    position: absolute;
+    top:0;
+    width: 20%;
+    left: 80%;
+}
+#search{
+    text-align: center;
+}
+.ui-dialog{
+    box-shadow: 0 0 3px black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.ui-dialog-titlebar-close{
+    float: right;
+    border-radius: 10px;
+    border: none;
+    border-image: none;
+    background: url("2000px-Golf_ball.svg.png");
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+}
+.ui-dialog-titlebar{
+    background: green;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+#output{
+    text-align: left;
+}
