@@ -5,7 +5,7 @@
 var inputs = $("#input");
 var out = $("#output");
 var head = $("#game");
-var url = "http://golf-courses-api.herokuapp.com/";
+var url = "https://golf-courses-api.herokuapp.com/";
 var players = [];
 function search(distance){
     out.html("");
