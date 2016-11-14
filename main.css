@@ -1,5 +1,76 @@
+html{
+    font-family: "Slabo 27px", sans-serif;
+}
+#play{
+    margin: 0 auto;
+}
+button{
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 15px;
+    border: none;
+    background: #ddd;
+    border-radius: 4px;
+    margin: 3px;
+}
+.parinput{
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 15px;
+    width: 30px;
+}
+.hcp{
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 15px;
+    width: 30px;
+}
+.cardcell{
+    height: 30px;
+    width: 50px;
+}
+.cardlinehead{
+    height: 30px;
+}
+.total{
+    font-weight: bold;
+}
+body{
+    margin: 0;
+    background: url("3Golf-Club.jpg");
+    background-size: 150%;
+}
+select{
+    width: 100%;
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 15px;
+    border: none;
+    margin: 3px;
+}
+#totals{
+    background: green;
+    border-radius: 4px;
+    color: #fff;
+}
+.othertotal{
+    background: #00aa00;
+    border-radius: 4px;
+}
+#submit{
+    width: 100%;
+}
+#loading{
+    padding: 50px;
+    margin: 0 auto;
+    width: 1px;
+}
+.course:nth-child(even){
+    background: #aaaaaa;
+}
 .course{
     display: block;
+    padding: 5px;
+    border-radius: 3px;
+}
+#output{
+    padding: 10px;
 }
 .col{
     display: inline-block;
@@ -8,7 +79,10 @@
 .name{
     display: block;
 }
-input[type=number]{
+.hcpp{
+    color: transparent;
+}
+#distance{
     width: 40px;
 }
 #players{
@@ -24,6 +98,19 @@ input[type=number]{
     box-shadow: 0 0 3px black;
     border-radius: 10px;
     padding: 5px;
+    background: #ffffff;
+}
+#play{
+    padding:20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .3);
+    display: none;
+    width: 85%;
+    margin: 0 auto;
+}
+#title{
+    text-align: center;
+    font-size: 50px;
 }
 .ui-dialog-titlebar-close{
     float: right;
